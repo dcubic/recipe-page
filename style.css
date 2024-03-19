@@ -9,7 +9,7 @@
     --light-grey: hsl(30, 18%, 87%);
     --wenge-brown: hsl(30, 10%, 34%);
     --dark-charcoal: hsl(24, 5%, 18%);
-    --divider-colour: #E0E0F4;
+    --divider-colour: rgba(224, 224, 244, 0.8);
 }
 
 body {
@@ -47,7 +47,7 @@ h2 {
     font-weight: 550;
 }
 
-p, li {
+p, li, table {
     font-family: Outfit;
     line-height: 25px;
     font-size: 16px;
@@ -92,22 +92,30 @@ span {
 
 hr {
     width: 80%;
-    background-color: var(--divider-colour);
-    opacity: 0.3;
     margin-top: -17px;
     margin-bottom: -2px;
+    border: 1px solid var(--divider-colour);
 }
 
 table {
     border-collapse: collapse;
-    width: 80%;
-    display:
+    width: 98%;
+    font-family: 
 }
 
 table tr {
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid var(--divider-colour);
+}
+
+table td {
+    padding: 10px 25px
 }
 
 table tr:last-child {
     border-bottom: none;
+}
+
+.value {
+    color: var(--nutmeg);
+    font-weight: 700;
 }
