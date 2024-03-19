@@ -1,0 +1,79 @@
+/* - Nutmeg: hsl(14, 45%, 36%)
+- Dark Raspberry: hsl(332, 51%, 32%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Rose White: hsl(330, 100%, 98%)
+- Eggshell: hsl(30, 54%, 90%)
+- Light Grey: hsl(30, 18%, 87%)
+- Wenge Brown: hsl(30, 10%, 34%)
+- Dark Charcoal: hsl(24, 5%, 18%) */
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root {
+    --nutmeg: hsl(14, 45%, 36%);
+    --dark-raspberry: hsl(332, 51%, 32%);
+    --rose-white: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --light-grey: hsl(30, 18%, 87%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+    --beige: #F3E5D8;
+}
+
+body {
+    margin: 0;
+    background-color: var(--beige);
+}
+
+main {
+    width: 375px;
+    height: 2043px;
+    background-color: white;
+}
+
+section {
+    padding: 30px;
+}
+
+img {
+    width: 375px;
+}
+
+h1, h2 {
+    font-family: Young Serif;
+}
+
+p {
+    font-family: Outfit;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.preparation-time-container {
+    box-sizing: border-box;
+    padding: 15px 20px;
+    background-color: var(--rose-white);
+}
+
+h3 {
+    margin: 0;
+    color: var(--dark-raspberry);
+    font-weight: 700;
+    font-family: Outfit;
+}
+
+ul li, ol li {
+    margin-top: 10px;
+}
+
+.raspberry-marker::marker {
+    color: var(--dark-raspberry);
+}
+
+span {
+    font-weight: bold
+}
